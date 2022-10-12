@@ -1,0 +1,66 @@
+.flex {
+	 display: flex;
+}
+ .text-center {
+	 text-align: center;
+}
+ .justify-between {
+	 justify-content: space-between;
+}
+ .cursor-pointer {
+	 cursor: pointer;
+}
+ html {
+	 height: 100%;
+}
+ body {
+	 position: relative;
+	 min-height: 100%;
+}
+ #__next {
+	 height: 100%;
+}
+ svg {
+	 display: block;
+}
+ svg:hover path {
+	 stroke: #489cff;
+}
+ svg.logo-icon:hover path {
+	 stroke: none;
+}
+ .app-spinner {
+	 position: fixed;
+	 background: #000 59;
+	 width: 100vw;
+	 height: 100vh;
+	 top: 0;
+	 left: 0;
+	 z-index: 99;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+}
+ .position-relative {
+	 position: relative;
+}
+ .preview-menu-container {
+	 top: 7px;
+	 right: 40px;
+	 position: absolute;
+}
+ .preview-close {
+	 top: 0;
+	 right: 5px;
+	 position: absolute !important;
+}
+ .preview-hide-wrapper {
+	 top: 0;
+	 right: 0;
+	 height: 30px;
+	 width: 100px;
+	 position: absolute;
+	 background: #446995;
+}
+ 
+ 
